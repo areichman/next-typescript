@@ -15,9 +15,10 @@ type Launch = {
   mission_name: string;
 }
 
-function Launches(props: PageProps) {
-  const { results } = props;
-  
+function Launches({
+  results = []
+}: PageProps) {
+
   return (
     <div>
       <h1>Recent SpaceX Launches</h1>
@@ -31,7 +32,7 @@ function Launches(props: PageProps) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const { data } = await client.query({
     query: gql`
       query GetLaunches {
