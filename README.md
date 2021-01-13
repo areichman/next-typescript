@@ -12,7 +12,7 @@ npm run dev
 npm install --save-dev typescript @types/react @types/node
 ```
 
-The application uses (Apollo Client)[https://www.apollographql.com/apollo-client] to fetch data using GraphQL queries from the
+The application uses [Apollo Client](https://www.apollographql.com/apollo-client) to fetch data using GraphQL queries from the
 SpaceX launches API.
 
 ## Getting Started
