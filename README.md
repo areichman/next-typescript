@@ -38,3 +38,8 @@ yarn set version 1.22.5
 Note that we are setting the version of Yarn to v1 (classic), not the latest
 v2 (berry) release. As such, Yarn will continue to install modules into the
 `node_modules` directory.
+
+See the following for info regarding Yarn v2 support in VS Code and Atom.
+
+* https://yarnpkg.com/getting-started/migration#setup-your-ide-for-pnp-support
+* https://github.com/TypeStrong/atom-typescript/issues/1557
